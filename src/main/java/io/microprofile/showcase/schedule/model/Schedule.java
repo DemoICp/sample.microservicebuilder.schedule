@@ -80,7 +80,7 @@ public class Schedule {
     }
 
     public String getVenue() {
-        return "Mistake"+venue;
+        return venue;
     }
 
     public String getVenueId() {
@@ -92,7 +92,7 @@ public class Schedule {
     }
 
     public LocalTime getStartTime() {
-        return startTime;
+        return "start"+startTime;
     }
 
     public Duration getDuration() {
