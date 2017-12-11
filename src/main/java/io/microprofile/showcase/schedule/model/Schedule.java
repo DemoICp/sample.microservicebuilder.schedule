@@ -1,4 +1,4 @@
-/* 
+/*
  * Copyright 2016 Microprofile.io
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -80,7 +80,7 @@ public class Schedule {
     }
 
     public String getVenue() {
-        return venue;
+        return "Mistake"+venue;
     }
 
     public String getVenueId() {
