@@ -92,7 +92,7 @@ public class Schedule {
     }
 
     public LocalTime getStartTime() {
-        return "start"+startTime;
+        return startTime;
     }
 
     public Duration getDuration() {
